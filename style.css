@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+}
+header {
+    text-align: center;
+}
+header h1 {
+    font-size: 55px;
+    margin-bottom: 0px;
+}
+header a, header p, header span{
+    font-size: 24px;
+    margin: 10px 1px;
+}
+hr {
+    height: 2px;
+    background-color: gray;
+}
+main {
+    display: flex;
+    gap: 5%;
+}
+#left {
+    width: 60%;
+}
+#right {
+    width: 35%;
+}
+.title {
+    font-size: 30px;
+    font-weight: 800;
+    color: rgb(86, 86, 243);
+    margin: 16px 0 4px 0;
+}
+.subtitle {
+    font-weight: 600;
+    font-size: 24px;
+    margin: 0;
+}
+.inline {
+    display: inline;
+}
+.desc {
+    font-size: 24px;
+    margin: 0;
+}
+i {
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    font-size: 40px;
+    color: black;
+}
+a:hover, i:hover {
+    color: orangered;
+}
