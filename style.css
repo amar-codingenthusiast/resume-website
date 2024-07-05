@@ -36,14 +36,14 @@ main {
 }
 .subtitle {
     font-weight: 600;
-    font-size: 24px;
+    font-size: 22px;
     margin: 0;
 }
 .inline {
     display: inline;
 }
 .desc {
-    font-size: 24px;
+    font-size: 22px;
     margin: 0;
 }
 i {
